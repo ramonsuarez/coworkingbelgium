@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>coworkingbelgium</ShortName>
+	<Description>Search Coworking Belgium - Belgian coworking spaces, news and events</Description>
+	<Contact>help@wordpress.com</Contact>
+	<Url type="application/atom+xml" template="https://coworkingbelgium.be/?s={searchTerms}&amp;feed=atom"/>
+	<Url type="application/rss+xml"  template="https://coworkingbelgium.be/?s={searchTerms}&amp;feed=rss2"/>
+	<Url type="text/html"            template="https://coworkingbelgium.be/?s={searchTerms}" method="GET" />
+	<Url type="application/opensearchdescription+xml" rel="self" template="/osd.xml" />
+	<LongName>Coworking Belgium</LongName>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">https://secure.gravatar.com/blavatar/a9508e2d4f2af9b2381dd0e8ee4d6832?s=16&#038;d=https%3A%2F%2Fcoworkingbelgium.be%2Ffavicon.ico</Image>
+	<Image height="64" width="64" type="image/jpeg">https://secure.gravatar.com/blavatar/a9508e2d4f2af9b2381dd0e8ee4d6832?s=64&#038;d=https%3A%2F%2Fs-ssl.wordpress.com%2Fi%2Flogo%2Fgray-white-transparent-64.png</Image>
+	<Query role="example" searchTerms="photography" />
+	<Tags>statistics stats presentation belgium bobca state-of-coworking belgian-office-and-business-center-association brussels-coworking-week coworking-brussels stephano-borghi</Tags>
+	<Developer>Automattic</Developer>
+	<SyndicationRight>open</SyndicationRight>
+	<AdultContent>false</AdultContent>
+	<Language>en</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	<moz:SearchForm>https://coworkingbelgium.be</moz:SearchForm>
+</OpenSearchDescription>
